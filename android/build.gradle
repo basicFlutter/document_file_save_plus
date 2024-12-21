@@ -26,7 +26,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 29
-
+namespace = "com.advoques.document_file_save_plus"
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
